@@ -2,4 +2,4 @@
 
 ## Website Link
 
-[Link text Here](https://alhassanmohamed2.github.io/Azkar/)
+[Azkar](https://alhassanmohamed2.github.io/Azkar/)
