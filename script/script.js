@@ -1,6 +1,8 @@
 const forward = document.querySelector(".forward")
   , backward = document.querySelector(".backward");
 var slider_num = 0;
+const butto = document.querySelector(".sib")
+  , add = document.querySelector(".add");
 const slider = document.querySelector(".slider");
 function foward() {
     12 == slider_num ? (console.log("forbidden")) : (slider.children[slider_num + 1].classList.add("active"),
@@ -17,10 +19,8 @@ function baward() {
 }
 forward.addEventListener("click", foward, !1),
 backward.addEventListener("click", baward, !1);
-const t = document.querySelector('[alt="www.000webhost.com"]');
-t.outerHTML = "";
-const butto = document.querySelector(".sib")
-  , add = document.querySelector(".add");
+
+
 function ad() {
     add.innerHTML = parseInt(add.innerHTML) + 1
 }
